@@ -1,0 +1,304 @@
+<mxfile host="app.diagrams.net" agent="joao-pinheiro">
+  <diagram name="diagrama" id="diagrama-prova">
+    <mxGraphModel dx="1334" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="860" pageHeight="970" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q1-main" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="Main" vertex="1">
+          <mxGeometry height="72" width="200" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-main-sep" parent="q1-main" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-main-m0" parent="q1-main" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ main(String[] args) : void" vertex="1">
+          <mxGeometry height="22" width="200" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-abs" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&amp;lt;br&amp;gt;EmissorPassagem" vertex="1">
+          <mxGeometry height="116" width="300" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-abs-sep" parent="q1-abs" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-abs-m0" parent="q1-abs" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="# criarPassagem()* : Passagem" vertex="1">
+          <mxGeometry height="22" width="300" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-abs-m1" parent="q1-abs" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ emitir() : void" vertex="1">
+          <mxGeometry height="22" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-abs-m2" parent="q1-abs" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- imprimirResumo(...) : void" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-if" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&amp;lt;br&amp;gt;Passagem" vertex="1">
+          <mxGeometry height="138" width="300" x="520" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-if-sep" parent="q1-if" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-if-m0" parent="q1-if" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getModal() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-if-m1" parent="q1-if" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getNomePassageiro() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-if-m2" parent="q1-if" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-if-m3" parent="q1-if" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getDocumentosExigidos() : List" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ea" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="EmissorPassagemAerea" vertex="1">
+          <mxGeometry height="138" width="300" x="60" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ea-f0" parent="q1-ea" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- nomePassageiro : String" vertex="1">
+          <mxGeometry height="22" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ea-f1" parent="q1-ea" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- valorTarifa : double" vertex="1">
+          <mxGeometry height="22" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ea-sep" parent="q1-ea" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ea-m0" parent="q1-ea" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ Emissor*(String, double)" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ea-m1" parent="q1-ea" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="# criarPassagem() : Passagem" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="PassagemAerea" vertex="1">
+          <mxGeometry height="204" width="300" x="520" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-f0" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- nomePassageiro : String" vertex="1">
+          <mxGeometry height="22" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-f1" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- valorTarifa : double" vertex="1">
+          <mxGeometry height="22" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-sep" parent="q1-pa" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-m0" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ Passagem*(String, double)" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-m1" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getModal() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-m2" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getNomePassageiro() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-m3" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="22" width="300" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pa-m4" parent="q1-pa" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getDocumentosExigidos() : List" vertex="1">
+          <mxGeometry height="22" width="300" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-er" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="EmissorPassagemRodoviaria" vertex="1">
+          <mxGeometry height="138" width="300" x="60" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-er-f0" parent="q1-er" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- nomePassageiro : String" vertex="1">
+          <mxGeometry height="22" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-er-f1" parent="q1-er" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- valorTarifa : double" vertex="1">
+          <mxGeometry height="22" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-er-sep" parent="q1-er" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-er-m0" parent="q1-er" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ Emissor*(String, double)" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-er-m1" parent="q1-er" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="# criarPassagem() : Passagem" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="PassagemRodoviaria" vertex="1">
+          <mxGeometry height="204" width="300" x="520" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-f0" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- nomePassageiro : String" vertex="1">
+          <mxGeometry height="22" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-f1" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- valorTarifa : double" vertex="1">
+          <mxGeometry height="22" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-sep" parent="q1-pr" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-m0" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ Passagem*(String, double)" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-m1" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getModal() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-m2" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getNomePassageiro() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-m3" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="22" width="300" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pr-m4" parent="q1-pr" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getDocumentosExigidos() : List" vertex="1">
+          <mxGeometry height="22" width="300" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ef" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="EmissorPassagemFerroviaria" vertex="1">
+          <mxGeometry height="138" width="300" x="60" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ef-f0" parent="q1-ef" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- nomePassageiro : String" vertex="1">
+          <mxGeometry height="22" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ef-f1" parent="q1-ef" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- valorTarifa : double" vertex="1">
+          <mxGeometry height="22" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ef-sep" parent="q1-ef" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ef-m0" parent="q1-ef" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ Emissor*(String, double)" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-ef-m1" parent="q1-ef" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="# criarPassagem() : Passagem" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="PassagemFerroviaria" vertex="1">
+          <mxGeometry height="204" width="300" x="520" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-f0" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- nomePassageiro : String" vertex="1">
+          <mxGeometry height="22" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-f1" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="- valorTarifa : double" vertex="1">
+          <mxGeometry height="22" width="300" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-sep" parent="q1-pf" style="line;strokeWidth=1;fillColor=none;" vertex="1">
+          <mxGeometry height="8" width="300" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-m0" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ Passagem*(String, double)" vertex="1">
+          <mxGeometry height="22" width="300" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-m1" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getModal() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-m2" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getNomePassageiro() : String" vertex="1">
+          <mxGeometry height="22" width="300" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-m3" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ calcularTaxaEmbarque() : double" vertex="1">
+          <mxGeometry height="22" width="300" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-pf-m4" parent="q1-pf" style="text;strokeColor=none;fillColor=none;align=left;spacingLeft=4;html=1;" value="+ getDocumentosExigidos() : List" vertex="1">
+          <mxGeometry height="22" width="300" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="q1-ea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="q1-abs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="284" />
+              <mxPoint x="210" y="270" />
+              <mxPoint x="210" y="226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0-lbl" connectable="0" parent="e0" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="Extends" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="q1-pa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="q1-if">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="284" />
+              <mxPoint x="670" y="270" />
+              <mxPoint x="670" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1-lbl" connectable="0" parent="e1" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="Implements" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="q1-ea" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 4;" target="q1-pa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="392" />
+              <mxPoint x="400" y="392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2-lbl" connectable="0" parent="e2" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="cria" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="q1-er" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="q1-abs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="559" />
+              <mxPoint x="50" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="q1-pr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="q1-if">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="592" />
+              <mxPoint x="840" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="q1-er" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 4;" target="q1-pr">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="559" />
+              <mxPoint x="460" y="559" />
+              <mxPoint x="460" y="559" />
+              <mxPoint x="510" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5-lbl" connectable="0" parent="e5" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="cria" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="q1-ef" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="q1-abs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30.08" y="759" />
+              <mxPoint x="30.08" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="q1-pf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="q1-if">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="792" />
+              <mxPoint x="850" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="q1-ef" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 4;" target="q1-pf">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="790" />
+              <mxPoint x="420" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8-lbl" connectable="0" parent="e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="cria" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="q1-main" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 4;" target="q1-ea">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390.06" y="319.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="q1-main" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 4;" target="q1-er">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400.06" y="519.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10-lbl" connectable="0" parent="e10" style="edgeLabel;html=1;align=center;verticalAlign=middle;" value="new / emitir()" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LRuuMXi94Z4rOd9OebA_-2" edge="1" parent="1" source="q1-main" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 4;" target="q1-ef">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410.06" y="719.94" />
+            </Array>
+            <mxPoint x="470" y="102" as="sourcePoint" />
+            <mxPoint x="360" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
